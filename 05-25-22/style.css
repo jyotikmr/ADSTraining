@@ -1,0 +1,49 @@
+table, th, td{
+    border:2px solid black;/* has double border line*/
+    border-collapse: collapse;/* makes it a single line border*/
+
+  }
+  /* cell padding is the space between the cell edges and the cell content*/
+  th, td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+  }
+  tr:nth-child(even){
+      background-color: aquamarine;
+  }
+  tr:hover {
+      
+    background-color: #2abd25;
+}
+/* period(.) before class name for properties of class */
+.NL ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  
+  .NL li {
+    float: left;
+  }
+  
+  .NL li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  .NL li a:hover {
+    background-color: #e2b213;
+  }
+  #myHeader {
+    background-color: rgb(238, 145, 215);
+    color: black;
+    padding: 40px;
+    text-align: center;
+}

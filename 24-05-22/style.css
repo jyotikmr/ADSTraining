@@ -37,3 +37,7 @@ a:link, a:visited {
   a:hover, a:active {
     background-color: rgb(0, 217, 255);
   }
+  table, th, td{
+    border:2px solid black;
+    
+  }
