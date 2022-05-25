@@ -1,0 +1,159 @@
+@font-face {
+    font-family: Rabbit;
+    src: url(../fonts/Rabbit.otf);
+}
+@font-face {
+    font-family: Champagne;
+    src: url(../fonts/Champagne.ttf);
+}
+@font-face {
+    font-family: Couture;
+    src: url(../fonts/Couture.otf);
+}
+@font-face {
+    font-family: Vonique;
+    src: url(../fonts/Vonique.otf);
+}
+
+
+
+
+
+
+
+
+
+/*general style settings*/
+*{
+    padding: 0;
+    margin: 0;
+
+}
+a{
+    text-decoration: none;
+    color:#333
+
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+nav{
+    display: grid;
+    grid-template-columns: 300px auto 300px;
+    padding : 10px;
+
+}
+.brand_logo{
+    border-bottom: 2px solid #ddd;
+    margin:0 auto;
+    width: 700px;
+
+}
+.brand_logo h1{
+    font-family: Rabbit;
+    font-size: 60px;
+    letter-spacing: 5px;
+    font-weight: normal;
+    text-align: center;
+
+}
+.brand_logo span{
+    color: #fc9d03;
+   
+}
+.social_icons .fa{
+    width: 20px;
+    margin: 5px;
+    opacity:50%;
+}
+/*cover stye section*/
+ 
+.cover{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 400fr 400px 400fr 400fr;
+    grid-column-gap: 17px;
+    grid-row-gap: 12px;
+    justify-items: stretch;
+    align-items: stretch;
+    transition: 0.5s;
+
+}
+.feature{
+    position: relative;
+}
+.feature img{
+    width:400px;
+    height: 400px;
+    object-fit: cover ;
+
+}
+.title_filter{
+    position: absolute;
+    bottom: 0;
+    background-color: #333;
+    opacity: 50%;
+    width: 400px;
+    height: 22%;
+}
+.feature_title{
+    position:absolute;
+    font-family: Couture;
+    letter-spacing: 2px;
+    bottom: 0;
+    margin: 5px 10px;
+    color: #fff;
+}
+.number{
+    position: relative;
+    width: 60px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+    background-color: #fc9d03;
+    padding: 10px 0px;
+}
+.number h3{
+    line-height: 25px;
+
+
+}
+
+.number_title{
+   font-size: 25px; 
+}
+.feature_title p{
+    font-size: 10px;
+    margin: 5px 10px;
+}
+.feature_title a{
+    color: #fc9d03;
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer:h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+
+.icons .fa{
+   color: #f44336;
+   margin: 0 13px;
+   cursor: pointer;
+   padding: 18px 0;
+
+
+} 
+.fa-heart{
+   color: #f44336;
+}
+
+
