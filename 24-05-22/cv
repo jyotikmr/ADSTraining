@@ -1,0 +1,6 @@
+ ssh-keygen -t ed25519 -C "monumokhariya29@gmail.com"
+
+ git remote set-url origin https://github.com/jyotikmr/ADSTraining.git
+
+   git config --global user.email "monumokhariya29@gmail.com"
+  git config --global user.name "jyotikmr"
