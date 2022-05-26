@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <title>05-26-22</title>
+        <!------using meta to set the veiwport to make website look good on all sites-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../05-26-22/style.css">
+    </head>
+<body>
+    <h2>Iframe - Target for a Link</h2>
+
+    <iframe src="../05-25-22/pr.html" name="iframe_a" height="300px" width="100%" style="border:2px solid red;" title="Iframe Example"></iframe>
+    
+    <p><a href="https://www.youtube.com/" target="iframe_a">search youtube here</a></p>
+    
+    <!---When the target attribute of a link matches the name of an iframe, the link will open in the iframe--->
+<!-----learning to change text of a id using javascript-->
+    <h1 id="myHeader">my first javascript function to practice </h1>   
+    <script>
+        function myFunction() {
+          document.getElementById("myHeader").style.fontSize = "25px"; 
+          document.getElementById("myHeader").style.color = "blue";
+          document.getElementById("myHeader").style.backgroundColor = "pink";        
+        }
+        </script>
+        <!----we will use the function to put it in button for working-->
+    <button type="button" onclick="myFunction()">click me </button>
+    <div class="save">
+    <h2>CSS Layout Float</h2>
+    <p>In this example, we have created a header, two columns/boxes and a footer. </p>
+    <header>
+       <h2>Cities</h2>
+    </header>
+    
+    <section>
+      <nav>
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">States</a></li>
+          <li><a href="#">Cuisine</a></li>
+        </ul>
+      </nav>
+      
+      <article>
+        <h1>home</h1>
+        <p>welcome to the site</p>
+        <p>Standing , here you can see us at the home page</p>
+      </article>
+    </section>
+    
+    <footer>
+      <p>Footer</p>
+    </footer>
+    </div>
+    <!-----creating a responsive page with explaining a image-->
+    <div style="background-color:#e5e5e5;padding:15px;text-align:center;">
+        <h1>MY NAME IS JYOTI</h1>
+      </div>
+      
+      <div style="overflow:auto">
+        <div class="menu">
+          <a href="#">GAMES</a>
+          <a href="#">MUSIC</a>
+          <a href="#">WORK</a>
+          <a href="#">SLEEP</a>
+        </div>
+      
+        <div class="main">
+          <h2>Heading for my responsive page</h2>
+          <p>a small paragraph to see how much can the paragraphn smaping and lining changes when screen gets changed.</p>
+        </div>
+      
+        <div class="right">
+          <h2>features</h2>
+          <p>10 sample questions to do each day and revise all concepts.</p>
+        </div>
+      </div>
+      
+      <div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">made with love by JK</div>
+      <!--------displaying code elements -->
+      <code>
+        x = 5;
+        y = 6;
+        z = x + y;
+        </code>
+        <p>copy the document by pressing <kbd>Ctrl + C</kbd></p>
+        <p>Message from my computer:</p>
+        <p><samp>File not found.<br>Press F1 to continue</samp></p>
+        <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+<!----------some semantic elements are used all over in the HTML doc-->
+        <div class="all-browsers">
+            <article class="browser">
+                <h2>Mozilla Firefox</h2>
+                <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+                </article>
+        </div>
+        <!----learned to use figcaption-->
+    <div>
+        <figure>
+            <img src="../05-26-22/reference/download (4).jpg" alt="live">
+            <figcaption>Live.Love.Laugh</figcaption>
+          </figure>
+    </div>
+<!----practice some HTML elements-->
+<p>my first emoji &#128516</p>
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+</html>    
