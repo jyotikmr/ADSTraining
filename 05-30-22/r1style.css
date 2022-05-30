@@ -1,0 +1,256 @@
+div.were {
+    border: 1px solid black;
+    background-color: rgb(179, 248, 99);
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
+  div.ex1 {
+    width: 300px;
+    background-color: yellow;
+    text-align-last: right;
+  }
+  
+  div.ex2 {
+    width: 300px;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: lightblue;
+  }
+  div.ex3 {
+    height: 100px;
+    width: 500px;
+    background-color: powderblue;
+  }
+  div.ex4 {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid rgb(128, 0, 90);
+    padding: 50px;
+    margin: 20px;
+  } 
+  p {outline-color:red;}
+
+    p.dotted {outline-style: dotted;}
+    p.dashed {outline-style: dashed;}
+    p.solid {outline-style: solid;}
+    p.double {outline-style: double;}
+    p.groove {outline-style: groove;}
+    p.ridge {outline-style: ridge;}
+    p.inset {outline-style: inset;}
+    p.outset {outline-style: outset;}
+
+  p.ex5 {
+        border: 1px solid black;
+        outline-style: solid;
+        outline-color: rgb(255, 0, 140);
+        outline-width: thin;
+    }
+  p.ex6 {
+        border: 1px solid black;
+        outline-style: solid;
+        outline-color: rgb(174, 0, 255);
+        outline-width: 4px;
+    }
+ p.oop {
+        margin: 30px;
+        background:rgb(87, 87, 71);
+        border: 1px solid black;
+        outline: 1px solid red;
+        outline-offset: 15px;
+  }   
+  .oop2 h1 {
+    text-decoration: overline;
+    text-decoration-color: green;
+    text-decoration-style: wavy;
+  }
+  
+  .oop2 h2 {
+    text-decoration: line-through;
+    text-decoration-color: rgb(128, 0, 0);
+    text-decoration-style: dashed;
+}
+  
+  .oop2 h3 {
+    text-decoration: underline;
+    text-decoration-color: rgb(19, 0, 128);
+    text-decoration-style: double;
+}
+
+  
+  p.ex {
+    text-decoration: overline underline;
+    text-decoration-color: rgb(81, 0, 128);
+  }
+  p.uppercase {
+    text-transform: uppercase;
+    letter-spacing: -2px;
+  }
+  
+  p.lowercase {
+    text-transform: lowercase;
+    text-shadow: 2px 2px 5px red;
+  }
+  
+  p.capitalize {
+    text-transform: capitalize;
+    text-shadow: 0 0 3px #ff0095;
+  } 
+  .p3 {
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  .p1 {
+    font-family: "Times New Roman", Times, serif;
+  }
+  p.oblique {
+    font-style: oblique;
+  }
+
+  p.font {
+    font-family: "Audiowide", sans-serif;
+  }
+  p.font2 {
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #696767;
+  }
+ p.font-effect-fire{
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+ }
+ a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: green;
+    color: white;
+  }
+  ol {
+    background: #a164da;
+    padding: 20px;
+  }
+  
+  ul {
+    background: #3399ff;
+    padding: 20px;
+  }
+  
+  ol li {
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+  }
+  
+  ul li {
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
+ 
+  div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+  } 
+  
+  div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+  }
+  .container {
+    position: relative;
+  }
+  
+  .bottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+  }
+  
+  img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  }
+  .container {
+    position: relative;
+  }
+  
+  .black-box {
+    position: relative;
+    z-index: 1;
+    border: 2px solid black;
+    height: 100px;
+    margin: 30px;
+  }
+  
+  .gray-box {
+    position: absolute;
+    z-index: 3; /* gray box will be above both green and black box */
+    background: lightgray;
+    height: 60px;  
+    width: 70%;
+    left: 50px;
+    top: 50px;
+  }
+  
+  .green-box {
+    position: absolute;
+    z-index: 2; /* green box will be above black box */
+    background: lightgreen;
+    width: 35%;
+    left: 270px;
+    top: -15px;
+    height: 100px;
+  }
+
+  .overflowx  {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .js {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+ .js img {
+    
+        background: #eaeaed;
+        border: 1px solid #9799a7;
+        float: right;
+        margin: 8px 0 0 20px;
+        padding: 4px;
+        width: 200px;
+  }
