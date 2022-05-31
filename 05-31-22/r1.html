@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>05-31-22</title>
+    <link rel="stylesheet" href="../05-31-22/j1.css">
+</head>
+<body>
+
+<h2>Without Clearfix</h2>
+
+<p>This image is floated to the right. It is also taller than the element containing it, so it overflows outside of its container:</p>
+
+<div>
+  <img class="img1" src="../05-31-22/r12/pineapple.jpg" alt="Pineapple" width="170" height="170">
+  Pineapple (Ananas comosus) is an incredibly delicious, healthy tropical fruit. It’s packed with nutrients, antioxidants, and other helpful compounds, such as enzymes that can protect against inflammation and disease. It’s commonly eaten baked, grilled, or freshly cut.
+</div>
+
+<h2 style="clear:right">With New Modern Clearfix</h2>
+<p>Add the clearfix hack to the containing element, to fix this problem:</p>
+
+<div class="clearfix">
+  <img class="img2" src="../05-31-22/r12/pineapple.jpg" alt="Pineapple" width="170" height="170">
+  Pineapple (Ananas comosus) is an incredibly delicious, healthy tropical fruit. It’s packed with nutrients, antioxidants, and other helpful compounds, such as enzymes that can protect against inflammation and disease. It’s commonly eaten baked, grilled, or freshly cut.
+</div>
+<br>
+<h1>Horizontal Navigation Links</h1>
+<ul class="nav">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#clients">Our Clients</a></li>  
+    <li><a href="#contact">Contact Us</a></li>
+  </ul>
+  
+
+  <h2>Right align with the position property</h2>
+  <div class="right">
+    <p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p>
+  </div>
+  <p style="page-break-after: always;">&nbsp;</p>
+  <p style="page-break-after: always;">&nbsp;</p>
+  <p style="page-break-after: always;">&nbsp;</p>
+  <p style="page-break-after: always;">&nbsp;</p>
+<div class="center">
+    <p>I am vertically and horizontally centered.</p>
+</div>
+<!-------descedent selector-->
+<section>
+<div>
+    <p>Paragraph 1 in the div.</p>
+    <p>Paragraph 2 in the div.</p>
+    <section><p>Paragraph 3 in the div.</p></section>
+  </div>
+  
+  <p>Paragraph 4. Not in a div.</p>
+  <p>Paragraph 5. Not in a div.</p>
+
+</section>
+<br>
+
+<div class="magic">Hover over this div element to show the p element
+    <p>Tada! Here I am!</p>
+  </div>
+
+<p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+<p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+
+<div>
+  <p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+  <p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+</div>
+
+<br>
+<p class="ad">You can combine the ::first-letter and ::first-line pseudo-elements to add a special effect to the first letter and the first line of a text!</p>
+ 
+
+
+
+
+
+</body>
+</html>
+
+
