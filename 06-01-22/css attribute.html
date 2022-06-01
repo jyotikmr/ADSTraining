@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>06-01-22</title>
+<style>
+a[target] {
+  background-color: rgb(212, 0, 255);
+}
+/*  this attribute selector will select the titles with flower in it and the ones without flower in it will be skipped             */
+[title~=flower] {
+  border: 5px solid yellow;
+}
+[class^="top"] {
+  background: rgb(0, 255, 200);
+}
+</style>
+</head>
+<body>
+
+<h2>CSS [attribute] Selector</h2>
+<p>The links with a target attribute gets a yellow background:</p>
+
+<a href="https://www.w3schools.com">w3schools.com</a>
+<a href="http://www.disney.com" target="_blank">disney.com</a>
+<a href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
+
+<p style="page-break-after: always;">&nbsp;</p>
+<h2>CSS [attribute~="value"] Selector</h2>
+<p>All images with the title attribute containing the word "flower" get a yellow border.</p>
+
+<img src="../06-01-22/r1s/klematis.jpg" title="klematis flower" width="150" height="113">
+<img src="../06-01-22/r1s/img_flwr.gif" title="flower" width="224" height="162">
+<img src="../06-01-22/r1s/img_tree.gif" title="tree" width="200" height="358">
+
+<p style="page-break-after: always;">&nbsp;</p>
+<h2>CSS [attribute^="value"] Selector</h2>
+
+<h1 class="top-header">Welcome</h1>
+<p class="top-text">Hello world!</p>
+<p class="topcontent">my name is Jyoti.</p>
+
+<h2>Styling Forms</h2>
+
+<form name="input" action="" method="get">
+  Firstname:<input type="text" name="Name" value="jyoti" size="20">
+  Lastname:<input type="text" name="Name" value="kumari" size="20">
+  <input type="button" value="Example Button">
+</form>
+</body>
+</html>
+
