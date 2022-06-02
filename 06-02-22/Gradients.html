@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ h1 {
+  text-shadow: 0 0 3px #df086c ,0 0 5px #0000FF;
+}
+#grad1 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red, yellow);
+}
+
+#grad2 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, red , yellow);
+}
+#grad3 {
+  height: 55px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+#grad4 {
+  height: 150px;
+  width: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: radial-gradient(red 5%, yellow 15%, green 60%);
+}
+
+#grad5 {
+  height: 200px;
+  width: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: conic-gradient(red, yellow, green, blue, black);
+}
+
+#grad6 {
+  height: 200px;
+  width: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: repeating-conic-gradient(red 10%, yellow 20%);
+  border-radius: 50%;
+}
+</style>
+</head>
+<body>
+
+<h1>Linear Gradient - Top to Bottom</h1>
+<p>This linear gradient starts red at the top, transitioning to yellow at the bottom:</p>
+
+<div id="grad1"></div>
+<br>
+<br>
+<br>
+<h1>Linear Gradient - Left to Right</h1>
+<p>This linear gradient starts red at the left, transitioning to yellow (to the right):</p>
+
+<div id="grad2"></div>
+<br>
+<br>
+<br>
+<div id="grad3" style="text-align:center;margin:auto;color:#888888;font-size:40px;font-weight:bold">
+    Rainbow Background
+</div>
+<br>
+<br>
+<h1>Radial Gradient - Differently Spaced Color Stops</h1>
+
+<div id="grad4"></div>
+<br>
+<br>
+<br>
+<h1>Conic Gradient - Five Colors</h1>
+
+<div id="grad5"></div>
+<br>
+<br>
+<br>
+<h1>Repeating a Conic Gradient</h1>
+
+<div id="grad6"></div>
+
+
+
+</body>
+</html>
+

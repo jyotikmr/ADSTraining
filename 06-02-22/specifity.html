@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ /*calculation specifity for each one of them */ 
+div#a {background-color: green;} /* 101 */
+#a {background-color: yellow;} /* 100 */
+div[id=a] {background-color: blue;} /*id selectors have higher specificity than attribute selector*/
+
+#myid {
+  background-color: blue !important;
+}
+
+.myclass {
+  background-color: gray !important;
+}
+
+p {
+  background-color: red !important;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div id="a">This is a div</div>
+
+<!--------we will see how important tag works -->
+<p>this is normal text.it is not important so its normal properties will be overridden</p>
+<p class="myclass">This is some t1 imp tag in a paragraph.</p>
+
+<p id="myid">This is some t2 imo tag in a paragraph.</p>
+
+</body>
+</html>
+
