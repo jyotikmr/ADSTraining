@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+.js0 {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #893cbc;
+  color: white;
+}
+ .js {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+}
+
+ .js:focus {
+  background-color: lightblue;
+}
+.js1 {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: rgb(168, 128, 128);
+  background-image: url('../06-02-22/r2/icon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+
+
+
+
+
+</style>
+</head>
+<body>
+
+<h2>Input fields with color</h2>
+
+<form>
+  <label for="fname">First Name</label>
+  <input type="text" id="fname" name="fname" value="Jyoti" class="js0">
+  <label for="lname">Last Name</label>
+  <input type="text" id="lname" name="lname" value="Kumari" class="js0">
+</form>
+<!-------focused inputs-->
+<div>
+<h2>Input fields with color on :focus</h2>
+
+<p>Here, the input field gets a color when it gets focus (clicked on):</p>
+
+<form>
+  <label for="fname">First Name</label>
+  <input type="text" id="fname" name="fname" value="Jyoti" class="js">
+  <label for="lname">Last Name</label>
+  <input type="text" id="lname" name="lname" value="Kumari" class="js">
+</form>
+</div>
+<!----------input field with an icon inside-->
+<h2>Input field with an icon inside</h2>
+
+<form>
+  <input type="text" name="search" placeholder="Search.." class="js1">
+</form>
+<div>
+
+
+
+</div>
+
+
+
+</body>
+</html>
