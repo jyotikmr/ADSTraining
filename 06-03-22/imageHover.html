@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container1 {
+  position: relative;
+  width: 50%;
+}
+
+.image1 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container1:hover .overlay1 {
+  opacity: 1;
+}
+
+.text1 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.container2 {
+  position: relative;
+  width: 50%;
+}
+
+.image2 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle2 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container2:hover .image2 {
+  opacity: 0.3;
+}
+
+.container2:hover .middle2 {
+  opacity: 1;
+}
+
+.text2 {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.container3 {
+  position: relative;
+  width: 50%;
+}
+
+.image3 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay3 {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container3:hover .overlay3 {
+  bottom: 0;
+  height: 100%;
+}
+
+.text3 {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body>
+
+<h2>Fade in Overlay </h2>
+<h3>Fade in Text</h3>
+<div class="container1">
+  <img src="../reference/img_avatar3.png" alt="Avatar" class="image1">
+  <div class="overlay1">
+    <div class="text1">Hello World</div>
+  </div>
+</div>
+<!------fade in box-->
+<h3>Fade in a Box</h3>
+
+<div class="container2">
+  <img src="../reference/img_avatar3.png" alt="Avatar" class="image2" style="width:100%">
+  <div class="middle2">
+    <div class="text2">John Doe</div>
+  </div>
+</div>
+
+<h3>Slide in Overlay from the Top</h3>
+
+<div class="container3">
+  <img src="../reference/img_avatar3.png" alt="Avatar" class="image3">
+  <div class="overlay3">
+    <div class="text3">Hello World</div>
+  </div>
+</div>
+ 
+
+</body>
+</html>

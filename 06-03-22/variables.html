@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+:root {
+  --blue: #ff1ea1;
+  --white: #ffffff; 
+}
+
+body {
+  background-color: var(--blue);
+}
+
+h2 {
+  border-bottom: 2px solid var(--blue);
+}
+
+.container {
+  color: var(--blue);
+  background-color: var(--white);
+  padding: 15px;
+}
+
+button {
+ --blue: #0000ff; /* local variable will override global */  
+  background-color: var(--white);
+  color: var(--blue);
+  border: 1px solid var(--blue);
+  padding: 5px;
+}
+.four{
+    --four-blue: #00ff0d; /* new local variable */
+    color: var(--four-blue);  
+}
+</style>
+</head>
+<body>
+
+<h1>Using the var() Function</h1>
+
+<div class="container">
+  <h2>Happy Happy</h2>
+  <p>Experiencing the effect of favourable fortune; having the feeling arising from the consciousness of well-being or of enjoyment; enjoying good of any kind, as peace, tranquillity, comfort; contented; joyous.</p>
+  <p>
+    <button>Happy</button>
+    <button>Sad</button>
+  </p>
+</div>
+<div class="four">new local variable color to be defined here.</div>
+
+</body>
+</html>
+
+

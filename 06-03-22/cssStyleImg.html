@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.round {
+  border-radius: 8px;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.thumb{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+.linka{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.linka:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.resimg{
+  max-width: 100%;
+  height: auto;
+}
+</style>
+</head>
+<body>
+
+<h2>Rounded Image</h2>
+
+<p>Use the border-radius property to create rounded images:</p>
+
+<img src="../reference/paris.jpg" alt="Paris" width="300" height="300" class="round">
+
+<h2>Circled Image</h2>
+
+<p>Use the border-radius property to create circled images:</p>
+
+<img src="../reference/paris.jpg" alt="Paris" width="300" height="300" class="circle">
+
+<h2>Thumbnail Image</h2>
+
+<p>Use the border property to create thumbnail images:</p>
+
+<img src="../reference/paris.jpg" alt="Paris" style="width:150px" class="thumb">
+
+<h2>Thumbnail Image as Link</h2>
+
+<p>Use the border property to create thumbnail images. Wrap an anchor around the image to use it as a link.</p>
+<p>Hover over the image and click on it to see the effect.</p>
+
+<a target="_blank" href="../reference/paris.jpg">
+  <img src="../reference/paris.jpg" alt="Paris" style="width:150px" class="linka">
+</a>
+
+
+<h2>Responsive Image</h2>
+
+<p>Responsive images will automatically adjust to fit the size of the screen.</p>
+<p>Resize the browser window to see the effect:</p>
+
+<img src="../reference/img_5terre_wide.jpg" alt="Cinque Terre" width="1000" height="300" class="resimg">
+
+</body>
+</html>

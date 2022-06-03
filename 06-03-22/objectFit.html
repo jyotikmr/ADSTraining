@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.fill {object-fit: fill;}/* It is sized to fill the element's content box*/
+.contain {object-fit: contain;}/* scaled to maintain its aspect ratio while fitting within the element content box*/
+.contain {object-fit: cover;}/*sized to maintain its aspect ratio while filling the element's entire content box.*/
+.scale-down {object-fit: scale-down;}/*sized as if none or contain were specified */
+.none {object-fit: none;}/*The replaced content is not resized*/
+</style>
+</head>
+<body>
+
+<h1>The object-fit Property</h1>
+
+<h2>No object-fit:</h2>
+<img src="../reference/waterfall.jpg" alt="WF" style="width:200px;height:300px">
+
+<h2>object-fit: fill (this is default):</h2>
+<img class="fill" src="../reference/waterfall.jpg" alt="WF" style="width:200px;height:300px">
+
+<h2>object-fit: contain:</h2>
+<img class="contain" src="../reference/waterfall.jpg" alt="WF" style="width:200px;height:300px">
+
+<h2>object-fit: cover:</h2>
+<img class="cover" src="../reference/waterfall.jpg" alt="WF" style="width:200px;height:300px">
+
+<h2>object-fit: scale-down:</h2>
+<img class="scale-down" src="../reference/waterfall.jpg" alt="WF" style="width:200px;height:300px">
+
+<h2>object-fit: none:</h2>
+<img class="none" src="../reference/waterfall.jpg" alt="WF" style="width:200px;height:300px">
+
+</body>
+</html>
