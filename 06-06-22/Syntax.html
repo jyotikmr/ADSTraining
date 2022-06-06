@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Assigning JavaScript Values</h2>
+
+<p>In JavaScript the = operator is used to assign values to variables.</p>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+
+<h1 id="myH"></h1>
+<p id="myP"></p>
+
+<script>
+let x, y;
+x = 5;
+y = 6;
+document.getElementById("demo1").innerHTML = x + y;
+document.getElementById("demo2").innerHTML = y - x;
+document.getElementById("demo3").innerHTML = "Jyoti" + "" + "Kumari";
+
+/*
+The code below will change
+the heading with id = "myH"
+and the paragraph with id = "myP"
+*/
+document.getElementById("myH").innerHTML = "JavaScript Comments";
+document.getElementById("myP").innerHTML = "My first paragraph.";
+
+
+</script>
+
+</body>
+</html>

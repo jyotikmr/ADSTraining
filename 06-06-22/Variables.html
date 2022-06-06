@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Variables</h1>
+
+<p>In this example, x, y, and z are variables.</p>
+
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+<script>
+var x = 5; //variables are containers for storing data
+var y = 6; //here x ,y, z are variables declared with var keyword
+var z = x + y;
+document.getElementById("demo").innerHTML =
+"The value of z is: " + z;
+let a = 3; // here variables can also be declared using let
+let b = 7;
+let c = a + b ;
+document.getElementById("demo1").innerHTML =
+"the value of c is:" + c;
+//one statement many variables
+let person = "Jyoti Kumari", carName = "KIA", price = 700;
+document.getElementById("demo2").innerHTML = carName;
+let $ = "Hello World";//used as alias for main function.
+let _lastName = "Mokhariya"; //used a alias for "private (hidden)" variables.
+</script>
+
+</body>
+</html>
