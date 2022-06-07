@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    <p id="demo"></p>  
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <p id ="demo5"></p>
+
+<script>
+ let lesson = true;
+if( lesson == true){ // this is where we put the conditions as true 
+  document.getElementById("demo").innerHTML = "this is first time ,I am learning conditional operators";
+}
+else{
+  document.getElementById("demo").innerHTML = "this statement will be printed if the condition becomes false";
+}  
+//If Else with comparison operator
+let hungerlevel = 7;
+if (hungerLevel => 7){
+  document.getElementById("demo1").innerHTML = "Time to eat! ";
+}
+else{
+  document.getElementById("demo1").innerHTML = "wait till ur chance comes ";
+}
+//if else with logical operators
+let mood = 'sleepy';
+let tirednessLevel = 6;
+if(mood === 'sleepy' && tirednessLevel > 8 ){
+  document.getElementById("demo2").innerHTML = " Time to Sleep";
+}
+else{
+  document.getElementById("demo2").innerHTML = "Not Bed Time Yet";
+}
+//Truthy and Falsy
+let wordCount = 1;
+
+if (wordCount) {
+  document.getElementById("demo3").innerHTML = "Great! You've started your work! and is a truthy statement";
+} 
+else {
+  document.getElementById("demo3").innerHTML = "Better get to work!";
+}
+
+
+let favoritePhrase = '';
+
+if (favoritePhrase) {
+  document.getElementById("demo4").innerHTML = "This string doesn't seem to be empty.";
+} else {
+  document.getElementById("demo4").innerHTML = "This string is definitely empty.and is a falsy";
+}
+//short  circuits for truthY And Falsey
+let tool = '';
+
+tool = 'marker';
+
+// Use short circuit evaluation to assign writingUtensil variable below:
+let writingUtensil = tool || 'pen';
+
+console.log(`The ${writingUtensil} is mightier than the sword.`);
+
+
+</script>
+</body>
+</html>

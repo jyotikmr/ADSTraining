@@ -6,4 +6,6 @@ function myFunction() {
 
   document.write(5 + 10);
 
-  window.alert(10 + 12);
+ 
+
+ 
