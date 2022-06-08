@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>06-07-22</title>
+</head>
+
+<body>
+    <!--<element event="some JavaScript">---->
+    <button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
+    <!------- changes the content of the element with id="demo".-->
+    <p id="demo"></p>
+    <!-----without replacing content of demo-->
+    <h2>JavaScript HTML Events</h2>
+    <!---- the code changes the content of its own element-->
+    <button onclick="this.innerHTML=Date()">The time is?</button>
+    <br>
+    <br>
+    <h2>JavaScript HTML Events</h2>
+    <p>Click the button to display the date.</p>
+
+    <button onclick="displayDate()">The time is?</button>
+    <p id="demo1"></p>
+
+    <script src="Events.js"></script>
+</body>
+
+</html>

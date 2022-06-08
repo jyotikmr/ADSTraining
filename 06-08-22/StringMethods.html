@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>06-07-22</title>
+</head>
+
+<body>
+
+
+    <h2>JavaScript String Methods</h2>
+
+    <p>The slice() method extract a part of a string
+        and returns the extracted parts in a new string:</p>
+
+    <p id="demo"></p>
+    <p id="demo2"></p>
+    <p>The substr() method extract a part of a string
+        and returns the extracted parts in a new string:</p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <script>
+        //slicing
+        let str = "Apple, Banana, Kiwi";
+        document.getElementById("demo").innerHTML = str.slice(7, 13);
+        let str1 = "Apple, Banana, Kiwi";
+        document.getElementById("demo2").innerHTML = str1.slice(-12, -6);
+        //substring
+        let str3 = "Apple, mango, Kiwi";
+        document.getElementById("demo3").innerHTML = str3.substring(7, 13);
+        let str4 = "Apple, Banana, Kiwi";
+        document.getElementById("demo4").innerHTML = str4.substr(7, 6);
+    </script>
+
+
+</body>
+
+</html>
