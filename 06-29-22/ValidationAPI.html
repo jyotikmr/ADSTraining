@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>JavaScript Validation</h2>
+
+    <p>Enter a number and click OK:</p>
+
+    <input id="id1" type="number" min="100" max="300" required>
+    <button onclick="myFunction()">OK</button>
+
+    <p>If the number is less than 100 or greater than 300, an error message will be displayed.</p>
+
+    <p id="demo"></p>
+
+    <br>
+    <br>
+    <h2>Range Overflow</h2>
+
+    <p>Enter a number and click OK:</p>
+
+    <input id="id10" type="number" max="100">
+    <button onclick="myFunction1()">OK</button>
+
+    <p>If the number is greater than 100 (the input's max attribute), an error message will be displayed.</p>
+
+    <p id="demo1"></p>
+
+    <br>
+    <br>
+    <br>
+    <h2>Range Underflow</h2>
+
+    <p>Enter a number and click OK:</p>
+
+    <input id="id11" type="number" min="100">
+    <button onclick="myFunction2()">OK</button>
+
+    <p>If the number is less than 100 (the input's min attribute), an error message will be displayed.</p>
+
+    <p id="demo2"></p>
+
+
+
+
+    <script src="Val.js"></script>
+</body>
+
+</html>
