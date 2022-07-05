@@ -1,8 +1,9 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Expenses from './Components/Expenses';
+import Expenses from './Components/Expenses/Expenses';
 
-function App() {
+const App = () => {
   const expenses = [
     {
       id: 'e1',
@@ -25,10 +26,16 @@ function App() {
     },
   ];
 
+  // return React.createElement(
+  //   'div',
+  //   {},
+  //   React.createElement('h2', {}, "Let's get started!"),
+  //   React.createElement(Expenses, { items: expenses })
+  // );
+
   return (
     <div>
       <h2>Let's get started!</h2>
-      <p> this is also visible!</p>
       <Expenses items={expenses} />
     </div>
   );
