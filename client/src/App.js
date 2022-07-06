@@ -30,7 +30,7 @@ const App = () => {
   const [expenses, setExpenses] = useState(DUMMY_EXPENSES);
 
 const addExpenseHandler = expense => {
-  
+    console.log("add expense handler in app.js")
   setExpenses(prevExpenses => {
     return [expense, ...prevExpenses];
   });
@@ -51,5 +51,5 @@ return (
   </div>
 );
 
-}
+};
 export default App;
